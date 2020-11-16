@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <script src="javahome.js"></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <!-- Thanh sidepanel -->
+   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div id="mySidebar" class="sidebar">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <a href="#">About</a>
+         <a href="#">Services</a>
+         <a href="#">Clients</a>
+         <a href="#">Contact</a>
+      </div>
+
+      <div id="main">
+         <button class="openbtn" onclick="openNav()">&#9776;</button>
+         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-justify" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+               d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+         </svg> </button>
+      </div>
+      <a class="navbar-brand" href="#">
+         <img src="./images/TĐT_logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+         Tôn Đức Thắng University
+      </a>
+      <!-- các nút -->
+      <ul class="navbar-nav ml-auto">
+         <li class="nav-item dropdown">
+            <a class="nav-link Join" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+               data-toggle="tooltip" title="Tạo hoặc tham gia vào lớp học">
+               <button class="btn"><i class="fa fa-plus"></i> </button>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+               <a href="thamgialophoc.html" class="dropdown-item">Tham gia lớp học</a>
+
+               <a class="dropdown-item" href="taolophoc.html">Tạo lớp học</a>
+            </div>
+         </li>
+      </ul>
+
+      <ul class="navbar-nav">
+         <li class="nav-item dropdown">
+            <a class="nav-link avatar " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <button class="btn"><i class="fa fa-user"></i> </button>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+               <a class="dropdown-item" href="#">Tài khoản của tôi</a>
+               <a class="dropdown-item" href="#">Đăng xuất</a>
+            </div>
+         </li>
+      </ul>
+   </nav>
+
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-sm-6 col-md-4 col-lg-3 mt-3 rounded-sm">
+            <div class="card border-bottom-0 rounded-sm">
+
+               <img class="card-img-top"
+                  src="https://www.ef.com/blog/wp-content/uploads/2017/12/resized-classic-games2_pexels-photo-710743.jpg">
+            </div>
+            <div class="card border-top-0 rounded-0">
+               <div class="card-footer .bg-black border-0">
+                  <p><a class="  text-lg mt-2" href="">Class name</a></p>
+                  <p><a class="text-danger mt-2">teacher name</a></p>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-sm-6 col-md-4 col-lg-3 mt-3 rounded-sm">
+            <div class="card border-bottom-0 rounded-sm">
+
+               <img class="card-img-top"
+                  src="https://www.ef.com/blog/wp-content/uploads/2017/12/resized-classic-games2_pexels-photo-710743.jpg">
+            </div>
+            <div class="card border-top-0 rounded-0">
+               <div class="card-footer .bg-black border-0">
+                  <p><a class="  text-lg mt-2" href="">Class name</a></p>
+                  <p><a class="text-danger mt-2">teacher name</a></p>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-sm-6 col-md-4 col-lg-3 mt-3 rounded-sm">
+            <div class="card border-bottom-0 rounded-sm">
+
+               <img class="card-img-top"
+                  src="https://www.ef.com/blog/wp-content/uploads/2017/12/resized-classic-games2_pexels-photo-710743.jpg">
+            </div>
+            <div class="card border-top-0 rounded-0">
+               <div class="card-footer .bg-black border-0">
+                  <p><a class="  text-lg mt-2" href="">Class name</a></p>
+                  <p><a class="text-danger mt-2">teacher name</a></p>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-sm-6 col-md-4 col-lg-3 mt-3 rounded-sm">
+            <div class="card border-bottom-0 rounded-sm">
+
+               <img class="card-img-top"
+                  src="https://www.ef.com/blog/wp-content/uploads/2017/12/resized-classic-games2_pexels-photo-710743.jpg">
+            </div>
+            <div class="card border-top-0 rounded-0">
+               <div class="card-footer .bg-black border-0">
+                  <p><a class="  text-lg mt-2" href="">Class name</a></p>
+                  <p><a class="text-danger mt-2">teacher name</a></p>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </div>
+
+
+</body>
+
+</html>
